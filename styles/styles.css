@@ -128,19 +128,7 @@
         }
        
              
-    .footer {
-        width: 1600px;
-        margin: 0 auto;
-        background-color: #2F303A;
-        height: 252px;
-        }
-    .footer-bottom {
-        margin-left: 215px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        
-        }
-             
+          
      .button-list {
         display: flex;
         }  
@@ -177,26 +165,7 @@
       text-decoration: none;
       font-family: var(--main-font);
      }
-     .footer-adress {
-      font-family: var(--main-font);
-      font-style: normal;
-      font-weight: 400;
-      font-size: var(--text-size);
-      line-height: 24px;
-      letter-spacing: 0.03em;
-      color: #FFFFFF;
-      text-decoration: none;
-     }
-    .footer-contact {
-      font-family: var(--main-font);
-      font-style: normal;
-      font-weight: 400;
-      font-size: var(--text-size);
-      line-height: 24px;
-      letter-spacing: 0.03em;
-      color: rgba(255, 255, 255, 0.6);
-      text-decoration: none;
-    }
+     
     .peculiarities-title {
       font-family: var(--main-font);
       font-style: normal;
@@ -245,3 +214,67 @@
         letter-spacing: 0.03em;
         color: #212121;
     }
+    .team-item {
+        font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+        text-decoration: none;
+    }
+    .team-link {
+        display: flex;
+        }
+       
+        .footer {
+            width: 1600px;
+            margin: 0 auto;
+            background-color: #2F303A;
+            height: 252px;
+            }
+        .footer-bottom {
+            margin-left: 215px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            }
+
+    .footer-adress {
+        font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 400;
+        font-size: var(--text-size);
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-decoration: none;
+       }
+      .footer-contact {
+        font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 400;
+        font-size: var(--text-size);
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+      }
+      .portfolio-title {
+        font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        color: #212121;
+      }
+      .portfolio-link {
+        font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        color: #757575;
+      }
